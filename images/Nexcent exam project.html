@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Nexcent</title>
+  <link rel="stylesheet" href="./style.css" />
+
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#"><img src="./images/Logo.jpg" alt="logo" /a>
+
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">products</a>
+        <a href="#">Contact</a>
+        <a href="#">Testimonials</a>
+        <a href="#">FAQ</a>
+
+      </nav>
+      <div class="btns">
+        <a href="#" class="btn-secondary">Login</a>
+        <a href="#" class="btn-primary">Sign up</a>
+      </div>
+  </header>
+
+  <section class="hero container">
+    <div class="hero_content">
+      <H1> Lessons and Insights <br><span> from 8 years</span></H1>
+      <p>where to grow your business as a photographer site or</p>
+      </br>
+      <a href="#" class="btn-primary">Register</a>
+    </div>
+    <div>
+      <img src="./images/Illustration.svg" alt="illustration">
+    </div>
+
+  </section>
+  <section class="container clients">
+    <h2>our clients</h2>
+    <p>we have been working with some fortunate500+ clients</p>
+    <div class="logos">
+      <img src="images/Logo-1.svg" alt="logo 1" />
+      <img src="images/Logo-2.svg" alt="logo 2" />
+      <img src="images/Logo-3.svg" alt="logo 3" />
+      <img src="images/Logo-4.svg" alt="logo 4" />
+      <img src="images/Logo-5.svg" alt="logo 5" />
+      <img src="images/Logo-6.svg" alt="logo 6" />
+
+
+    </div>
+  </section>
+  <section class="container who">
+    <h2>Manage your entire community in a single system</h2>
+    <p>who is Nextcent suitable for?</p>
+    <div class="suitable-items">
+      <div class="suitable-card">
+        <img src="images/icon 1.svg" alt="icon 1" />
+        <h3>Membership organizations</h3>
+        <p>Our membership manangement software provides full automation of membership renmewals and payments</p>
+
+      </div>
+      <div class="suitable-card">
+        <img src="images/icon 3 new.svg" alt="icon 1" />
+        <h3>Membership organizations</h3>
+        <p>Our membership manangement software provides full automation of membership renmewals and payments</p>
+
+      </div>
+      <div class="suitable-card">
+        <img src="images/icon 4 new.svg" alt="icon 3" />
+        <h3>Membership organizations</h3>
+        <p>Our membership manangement software provides full automation of membership renmewals and payments</p>
+
+      </div>
+
+    </div>
+  </section>
+  <section class=" container unseen">
+    <img src="images/rafiki.svg" alt="unseen" />
+    <div class="unseen-content">
+
+      <h3>THE UNSEEN OF SPENDING THREE YEARS AT PIXELGRADE</h3>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum."</p>
+
+      <div class="learn">
+        <a href="#" class="btn-learn"> Learn more</a>
+      </div>
+    </div>
+
+  </section>
+  <section class="container design">
+    <img src="images/pana.svg" alt="sign up" />
+    <div class="to-design">
+      <h3>How to design your site footer like </br> we did</h3>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+        some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+        to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
+        text. All the Lorem Ipsum generators on the Interne</p>
+
+      <div class="learn">
+        <a href="#" class="btn-learn"> Learn more</a>
+      </div>
+
+
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+
+
+</html>

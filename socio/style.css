@@ -1,0 +1,54 @@
+body {
+    background-color: aqua;
+    max-width: 1440px;
+    width: 100%;
+    margin: 120px;
+    overflow-x: hidden;
+
+
+}
+
+.header {
+
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem 120px;
+    height: 84px;
+    width: 70%;
+}
+
+.logo img {
+    height: 75px;
+    width: 75px;
+
+
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    color: white;
+}
+
+.butons {
+    color: green;
+    border: 25px;
+    border-radius: 50px;
+    align-items: right;
+    margin: 10px 5px;
+    background-color: aquamarine;
+    padding: 0.5rem 1rem;
+
+}
+
+.butons A {
+    color: green;
+    padding: 15px 10px;
+    border-radius: 0.3rem;
+    align-items: right;
+    color: #ffffff;
+
+    margin-left: 0.3rem;
+
+}
